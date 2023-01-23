@@ -1,4 +1,24 @@
-body {
+    /* Media Queries */
+    
+    @media only screen and (max-width: 600px) {@media only screen and (max-width: 600px) {
+      h1 {
+      font-size: 2rem;
+      }
+      }
+    
+    @media only screen and (max-width: 600px) {
+      .feature-stories {
+        grid-template-columns: 1fr; /*1 column for mobile devices*/
+        grid-auto-flow: row; /* stack the items vertically */
+      }
+    }
+    
+    .feature img {
+      max-width: 400px;
+      height: auto;
+    }
+    
+    body {
     font-family: Poppins, Montserrat, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -179,11 +199,3 @@ body {
     padding-top: 40px;
     }
     
-    /* Media Queries */
-    
-    @media only screen and (max-width: 600px) {@media only screen and (max-width: 600px) {
-      h1 {
-      font-size: 2rem;
-      }
-      }
-  
