@@ -213,7 +213,7 @@ button {
 }
 @media only screen and (max-width: 600px) {
   @media only screen and (max-width: 600px) {
-    h1 {
+    body {
       font-size: 2rem;
     }
   }
