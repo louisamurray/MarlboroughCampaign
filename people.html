@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>We Love It Here</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/people.css">
+    <script src="/js/people.js"></script>
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 3.5s ease-in-out;
+        }
+    </style>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <nav><a href="index.html">#weloveithere</a></nav>
+</head>
+
+<body>
+    <h1 style="color: #ffff; text-decoration: underline;">Marlborough People</h1>
+    <div class="feature-stories">
+        <div id="business">
+            <div class="feature">
+                <img src="/img/A0ugh-ZQ.jpeg" alt="Rob Besaans">
+            </div>            
+            <h2>Rob Besaans | Founder & Director of GeoInsight</h2>
+            <p>Originally from South Africa, Rob moved to New Zealand with his family in search of a new life. Studying Marine Biology in Tauranga and then Geographic Information Systems at Victoria University in Wellington, Rob found a deep passion for nature, open spaces and the mountainous landscapes New Zealand has to offer.</p>
+            <button id="popup-button">Open More</button>
+            <div id="popup" class="more">
+              <div id="popup-content">
+                <p>Rob moved to Marlborough in 2015 after falling in love with the region whilst on holiday in the South Island.</p>
+                <p>Originally from South Africa, Rob moved to New Zealand with his family in search of a new life. Studying Marine Biology in Tauranga and then Geographic Information Systems at Victoria University in Wellington, Rob found a deep passion for nature, open spaces and the mountainous landscapes New Zealand has to offer.</p>
+                <p>Landing a summer job flying a drone around the Marlborough Sounds, Rob quickly fell in love with the southern lifestyle, hiking on the weekends, sailing and dancing during the weeks and a community of friendly, supportive and caring people who quickly helped make it home.</p>
+                <q>“Pelorus River to the North, the Marlborough Sounds a stone's throw away, the gateway to the Southern Alps, the freshest seafood in Kaikoura and more mountains than you can shake a stick at - what more could you ask for?”</q>
+                <p>Now a co-founder and director of his own business which is going from strength to strength, a software development consultancy in the bustling heart of Blenheim, Rob won’t choose anywhere else to live, work and raise his young family.</p>
+                <q>“We’re so lucky here to have everything on our doorstep and a well-connected business community that makes things happen. You don't have to trade the money for the lifestyle, when you can have both and more in Marlborough. It's honestly a hidden gem in the South."</q>
+                <br><button id="close-button">Close</button>
+                
+                  </div>
+                </div>
+            
+
+        </div>
+        <div class="lifestyle">
+            <div class="feature">
+                <img src="/img/IMG_2748.jpeg" alt="Alyssa Beatty">
+            </div>            
+            <h2>Alyssa Beatty | Pernod Ricard, Viticulture Planning Manager</h2>
+            <p>Tramping, cycling and orienteering in the great outdoors, Pernod Ricard Winemakers Viticulture Planning Manager Alyssa Beatty says her life now is far cry from heartland America where she grew up. Seeing the ocean for the first time at age 15, Alyssa immerses herself in discovering Marlborough and appreciating all it has to offer while growing her career within an industry that she loves.</p>
+            <button type="button" onmouseover="this.style.backgroundColor='#fcb900'" onmouseout="this.style.backgroundColor='#ffff'">Read more</button>
+        </div>
+        <div class="people">
+            <div class="feature">
+                <img src="/img/11.jpg" alt="Andy White">
+            </div>            
+            <h2>Andy White | Marlborough District Council, Rivers Project Engineer</h2>
+            <p>Andy White moved to Marlborough in 2021 to join Marlborough District Council as a Rivers Project Engineer.  After living in Christchurch for over ten years, Andy was longing for a move to somewhere quieter but without losing the ability to get into the hills or on the river at the weekends. Having spent several weekends in the Marlborough Sounds, and having walked sections of the Queen Charlotte Track, Andy knew that the district offered much more than he could have hoped for.</p>
+            <button type="button onmouseover="this.style.backgroundColor='#fcb900'" onmouseout="this.style.backgroundColor='#ffff'"">Read more</button>
+        </div>
+    </div>
+    <script src="/js/popUp.js"></script>
+</body>
+<footer> 
+    
+    <div class="footer">
+        <img src="img/GD2022-124_Attraction+campaign+-+billboard+2+(003).jpg" alt="footer-img"/><br>
+         <div class="subscription-form">
+        <form>
+            <label for="email">Sign up for our newsletter:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>   
+    <a href="#terms">Terms of Use</a><button type="button" onclick="openForm()" class="button" style="background-color: transparent;">Contact Us</button><a href="#privacy">Privacy Policy</a>
+    </div>
+    
+    
+
+    <div class="form-popup" id="myForm">
+    <form action="/submit-form" method="post" class="form-container">
+        <h3>Contact Us</h3>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="center">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="center">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" class="center"></textarea>
+        <br>
+        <button type="submit" class="btn" onclick="submitForm()">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+    </div>
+</footer>
+</html>
