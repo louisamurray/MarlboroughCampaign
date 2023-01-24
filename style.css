@@ -173,6 +173,7 @@ button {
   padding: 20px;
   z-index: 9;
   display: none;
+  font-size: 28px;
 }
 
 .button {
