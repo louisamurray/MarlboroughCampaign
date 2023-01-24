@@ -2,14 +2,14 @@ nav {
   flex-grow: 1;
   flex-shrink: 1;
   position: relative;
-    z-index: 2;
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    pointer-events: auto;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  pointer-events: auto;
   color: #ffffff;
   text-align: left;
   font-size: xx-large;
@@ -96,6 +96,7 @@ p {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -132,8 +133,8 @@ p {
 }
 
 .feature-stories p {
-    margin: 16px 0 16px 0;
-  }
+  margin: 16px 0 16px 0;
+}
 
 .feature img {
   max-width: 400px;
@@ -156,6 +157,36 @@ button {
   padding: 1.2em 2.004em;
   border-width: 0px;
   line-height: normal;
+}
+
+.competition {
+  text-align: center !important;
+  white-space: pre-wrap;
+  margin: auto;
+  background-color: #ffffff;
+  font-size: 24px;
+  max-width: 80%;
+}
+
+.competition p {
+  text-align: center !important;
+  line-height: 1.5;
+  margin-left: 5%;
+  font-size: 28px;
+}
+
+.competition ul {
+  text-align: center !important;
+  margin: 0;
+  line-height: 1;
+  margin-left: 5%;
+  font-size: 28px;
+}
+
+.competition h6 {
+  font-size: 30px;
+  color: #194B63;
+  text-align: center !important;
 }
 
 .subscription-form {
@@ -220,6 +251,7 @@ button {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media only screen and (max-width: 600px) {
   @media only screen and (max-width: 600px) {
     h1 {
@@ -239,16 +271,16 @@ button {
     width: 300px !important;
   }
 
- }
+}
 
- @media only screen and (max-width: 800px) {
-   .hero-text h1 {
-     font-size: 1.5rem;
-   }
- }
-
- @media only screen and (max-width: 600px) {
-   .hero-text h1 {
-     font-size: 1rem;
-   }
+@media only screen and (max-width: 800px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 1rem;
+  }
+}
