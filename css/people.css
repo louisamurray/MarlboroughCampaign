@@ -39,9 +39,11 @@
 #popup p {
     font-style: none;
     font-size: 28px;
+    text-alignment: center;
 }
 
 #popup q {
     font-style: italic;
-    font-size: 28px;
+    font-size: 26px;
+    text-alignment: center;
 }
