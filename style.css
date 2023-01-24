@@ -113,12 +113,6 @@ p {
   margin-left: 5%;
 }
 
-@media only screen and (max-width: 600px) {
-  .pitch p {
-    font-size: 24px;
-  }
-  }
-
 .pitch h6 {
   font-size: 24px;
   color: #194B63;
