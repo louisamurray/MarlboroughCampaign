@@ -9,3 +9,4 @@ function openForm() {
   function submitForm() {
     document.getElementById("myForm").style.display = "none";
   }
+  

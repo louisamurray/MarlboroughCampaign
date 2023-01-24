@@ -3,29 +3,32 @@ body {
   margin: 0;
   padding: 0;
   margin: auto;
-  text-align: center;
+  text-align: center !important;
   background-color: #194B63;
   align-content: center;
 }
 
 h1 {
   font-size: 4rem;
+  text-align: center !important;
 }
 
 h3 {
   font-size: 3rem;
   color: #194B63;
+  text-align: center !important;
 }
 
 h6 {
   font-size: large;
   color: #194B63;
-  text-align: center;
+  text-align: center !important;
 }
 
 p {
   font-size: 18px;
   max-width: 90%;
+  text-align: center !important;
 }
 
 .hero-image img {
@@ -56,7 +59,7 @@ p {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: center !important;
   color: white;
   z-index: 1;
   animation: fadeIn 1s ease-in;
@@ -72,16 +75,22 @@ p {
 }
 
 .pitch {
-  text-align: center;
+  text-align: center !important;
   white-space: pre-wrap;
   margin: auto;
   background-color: #ffffff;
-  padding-left: 5%;
 }
 
 .pitch p {
-  text-align: center;
+  text-align: center !important;
   line-height: 1;
+  margin-left: 5%;
+}
+
+.pitch h6 {
+  font-size: 24px;
+  color: #194B63;
+  text-align: center !important;
 }
 
 .feature-stories {
