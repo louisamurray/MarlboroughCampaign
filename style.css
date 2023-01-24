@@ -57,6 +57,11 @@ p {
   text-align: center !important;
 }
 
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 3rem;
+  }
+
 .hero-image img {
   max-width: 100%;
   height: auto;
@@ -240,9 +245,6 @@ button {
  }
 
  @media only screen and (max-width: 600px) {
-  p {
-    font-size: 2rem;
-  }
    .hero-text h1 {
      font-size: 1rem;
    }
