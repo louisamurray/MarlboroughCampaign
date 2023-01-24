@@ -1,3 +1,28 @@
+nav {
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    pointer-events: auto;
+  color: #ffffff;
+  text-align: left;
+  font-size: xx-large;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav :hover {
+  color: #fcb900;
+}
+
 body {
   font-family: Poppins, Montserrat, Helvetica, sans-serif;
   margin: 0;
