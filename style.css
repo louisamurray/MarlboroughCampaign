@@ -213,8 +213,8 @@ button {
 }
 @media only screen and (max-width: 600px) {
   @media only screen and (max-width: 600px) {
-    body {
-      font-size: 4rem;
+    h1 {
+      font-size: 2rem;
     }
   }
 
@@ -229,4 +229,20 @@ button {
   .feature-stories img {
     width: 300px !important;
   }
-}
+
+ }
+
+ @media only screen and (max-width: 800px) {
+   .hero-text h1 {
+     font-size: 1.5rem;
+   }
+ }
+
+ @media only screen and (max-width: 600px) {
+  p {
+    font-size: 24px;
+  }
+   .hero-text h1 {
+     font-size: 1rem;
+   }
+  }
