@@ -110,13 +110,13 @@ p {
 
 .pitch p {
   text-align: center !important;
-  line-height: 1;
+  line-height: 1.5;
   margin-left: 5%;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .pitch h6 {
-  font-size: 24px;
+  font-size: 30px;
   color: #194B63;
   text-align: center !important;
 }
