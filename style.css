@@ -131,6 +131,10 @@ p {
   color: #ffffff;
 }
 
+.feature-stories p {
+    margin: 16px 0 0 0;
+  }
+
 .feature img {
   max-width: 400px;
   height: auto;
