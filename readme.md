@@ -28,6 +28,7 @@ The website also includes an email contact form, hidden by default, which can be
 
 ## Viewing
 To view the website, open the "index.html" file in a web browser.
+Alternatively, you can visit https://mellow-frangipane-1bd414.netlify.app/index.html
 
 The images used on the website are stored in the "img" folder. The CSS styles are located in the "style.css" file, and the JavaScript functionality is located in the "script.js" file.
 
