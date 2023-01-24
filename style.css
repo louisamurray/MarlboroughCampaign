@@ -89,7 +89,7 @@ p {
   text-align: center !important;
   color: white;
   z-index: 1;
-  animation: fadeIn 1s ease-in;
+  animation: fadeIn 4s ease-in;
 }
 
 @keyframes fadeIn {
