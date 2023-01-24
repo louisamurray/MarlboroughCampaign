@@ -6,7 +6,7 @@
     top: 50%; /* position the popup vertically in the center */
     transform: translate(-50%, -50%); /* offset the position by half of the width and height */
     width: 70%; /* set the width of the popup */
-    height: auto; /* set the height of the popup */
+    height: 80%; /* set the height of the popup */
     background-color: white; /* set the background color to white */
     padding: 2em; /* add some padding to the content */
     overflow: auto; /* enable scroll if needed */
@@ -39,11 +39,9 @@
 #popup p {
     font-style: none;
     font-size: 28px;
-    text-alignment: center;
 }
 
 #popup q {
     font-style: italic;
     font-size: 26px;
-    text-alignment: center;
 }
