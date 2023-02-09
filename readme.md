@@ -35,6 +35,8 @@ The JavaScript in this project demonstrates the following concepts:
 - Use of functions (e.g. openForm() and closeForm())
 - Use of document.getElementById() to change or display the values/styles/attributes of the original HTML elements (e.g. document.getElementById("myForm").style.display = "block";)
 - Use of events (e.g. calculate.addEventListener("click", function() {...});)
+- Use of arithmetic operators: The code uses the division operator (/) to calculate the cost of living in Marlborough.
+- Use of comparative operators: The code uses the in operator to check if the selected city is present in the costOfLivingDifferences object.
 
 ## Viewing
 To view the website, open the "index.html" file in a web browser.
