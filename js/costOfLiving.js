@@ -9,6 +9,11 @@ const costOfLivingDifferences = {
   Hamilton: 0.837,
   Dunedin: 0.951,
   Wellington: 1.652
+  Tauranga: 1.573,
+  Napier: 1.076,
+  PalmerstonNorth: 1.015,
+  Nelson: 1.069,
+  Rotorua: 1.058
 };
   calculate.addEventListener("click", function() {
 const cost = currentCost.value;
