@@ -13,7 +13,7 @@ const costOfLivingDifferences = {
   Napier: 1.076,
   PalmerstonNorth: 1.015,
   Nelson: 1.069,
-  Rotorua: 1.058
+  Rotorua: 1.058,
 };
   calculate.addEventListener("click", function() {
 const cost = currentCost.value;
