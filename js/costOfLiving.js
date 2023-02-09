@@ -14,7 +14,7 @@ const costOfLivingDifferences = {
 const cost = currentCost.value;
 const city = originCity.value;
 if (city in costOfLivingDifferences) {
-  const formattedCost = (cost / costOfLivingDifferences[city]).toLocaleString("en-US", { style: "currency", currency: "USD" });
+  const formattedCost = (cost / costOfLivingDifferences[city]).toLocaleString("en-NZ", { style: "currency", currency: "NZD" });
   result.innerHTML =
     "Your cost of living in Marlborough could be " + formattedCost;
 } else {
