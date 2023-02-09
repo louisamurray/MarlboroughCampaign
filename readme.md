@@ -34,7 +34,7 @@ This project uses JavaScript to add dynamic functionality to the website. The fo
 To view the website, open the "index.html" file in a web browser.
 Alternatively, you can visit https://mellow-frangipane-1bd414.netlify.app/index.html
 
-The images used on the website are stored in the "img" folder. The CSS styles are located in the "style.css" file, and the JavaScript functionality is located in the "script.js" file.
+The images used on the website are stored in the "img" folder. The CSS styles are located in the "style.css" file and "css" folder, and the JavaScript functionality is located in the "script.js" file and "js" folder.
 
 Please note that all the links on the website are for demonstration purposes only and may not be active.
 
