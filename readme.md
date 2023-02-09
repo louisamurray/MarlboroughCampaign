@@ -1,7 +1,7 @@
 # Mission 1 
 
 ## Marlborough Campaign
-This project is a demonstration of understanding of HTML and CSS coding languages, as part of Mission 1 of Mission Ready HQ L4 Full Stack Developer Accelerator Programme. The website showcases the many benefits of living and working in the Marlborough region of New Zealand. It includes information about the local business community, lifestyle, and people who have chosen to call Marlborough home.
+This project is a demonstration of understanding of HTML and CSS coding languages, as part of Mission 1 & 2 of Mission Ready HQ L4 Full Stack Developer Accelerator Programme. The website showcases the many benefits of living and working in the Marlborough region of New Zealand. It includes information about the local business community, lifestyle, and people who have chosen to call Marlborough home.
 
 The website is built using HTML, CSS, and JavaScript. The layout is divided into a hero section, pitch section, and feature stories section. The hero section includes an image and text that highlights the main message of the website. The pitch section provides more detailed information about the benefits of living and working in Marlborough and includes links to relevant resources. The feature stories section includes three sections that highlight different aspects of life in Marlborough, including business, lifestyle, and people.
 
@@ -25,15 +25,18 @@ In terms of CSS, the following styles have been applied:
 - The website is also designed to be responsive, with styles that adjust for different screen sizes.
 
 This project uses JavaScript to add dynamic functionality to the website. The following JavaScript files have been used in this project:
-    The JavaScript in this project demonstrates the following concepts:
-        - Declaring variables using const
-        - Use of functions (e.g. openForm() and closeForm())
-        - Use of document.getElementById() to change or display the values/styles/attributes of the original HTML elements (e.g. document.getElementById("myForm").style.display = "block";)
-        - Use of events (e.g. calculate.addEventListener("click", function() {...});)
 - `popUp.js`: This file is responsible for the functionality of the popup functions on the website. It gets the elements of the open and close buttons and the popup itself, and adds click event listeners to the buttons to show and hide the popup.
 - `people.js`: This file sets the initial opacity of the body element to 1 when the page loads.
 - `costOfLiving.js`: This file calculates the cost of living in Marlborough in comparison to the selected city and displays the result. It gets the elements of the origin city, current cost, calculate button, and the result, and adds a click event listener to the calculate button. When the button is clicked, the cost of living is calculated and displayed in the result.
 - `script.js`: This file contains the functionality for the contact form. It has functions for opening, closing, and submitting the form.
+
+The JavaScript in this project demonstrates the following concepts:
+- Declaring variables using const
+- Use of functions (e.g. openForm() and closeForm())
+- Use of document.getElementById() to change or display the values/styles/attributes of the original HTML elements (e.g. document.getElementById("myForm").style.display = "block";)
+- Use of events (e.g. calculate.addEventListener("click", function() {...});)
+- Use of arithmetic operators: The code uses the division operator (/) to calculate the cost of living in Marlborough.
+- Use of comparative operators: The code uses the in operator to check if the selected city is present in the costOfLivingDifferences object.
 
 ## Viewing
 To view the website, open the "index.html" file in a web browser.
