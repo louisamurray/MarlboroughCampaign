@@ -25,6 +25,11 @@ In terms of CSS, the following styles have been applied:
 - The website is also designed to be responsive, with styles that adjust for different screen sizes.
 
 This project uses JavaScript to add dynamic functionality to the website. The following JavaScript files have been used in this project:
+    The JavaScript in this project demonstrates the following concepts:
+        - Declaring variables using const
+        - Use of functions (e.g. openForm() and closeForm())
+        - Use of document.getElementById() to change or display the values/styles/attributes of the original HTML elements (e.g. document.getElementById("myForm").style.display = "block";)
+        - Use of events (e.g. calculate.addEventListener("click", function() {...});)
 - `popUp.js`: This file is responsible for the functionality of the popup functions on the website. It gets the elements of the open and close buttons and the popup itself, and adds click event listeners to the buttons to show and hide the popup.
 - `people.js`: This file sets the initial opacity of the body element to 1 when the page loads.
 - `costOfLiving.js`: This file calculates the cost of living in Marlborough in comparison to the selected city and displays the result. It gets the elements of the origin city, current cost, calculate button, and the result, and adds a click event listener to the calculate button. When the button is clicked, the cost of living is calculated and displayed in the result.
