@@ -1,7 +1,7 @@
 # Mission 1 
 
 ## Marlborough Campaign
-This project is a demonstration of understanding of HTML and CSS coding languages, as part of Mission 1 of Mission Ready HQ L4 Full Stack Developer Accelerator Programme. The website showcases the many benefits of living and working in the Marlborough region of New Zealand. It includes information about the local business community, lifestyle, and people who have chosen to call Marlborough home.
+This project is a demonstration of understanding of HTML and CSS coding languages, as part of Mission 1 & 2 of Mission Ready HQ L4 Full Stack Developer Accelerator Programme. The website showcases the many benefits of living and working in the Marlborough region of New Zealand. It includes information about the local business community, lifestyle, and people who have chosen to call Marlborough home.
 
 The website is built using HTML, CSS, and JavaScript. The layout is divided into a hero section, pitch section, and feature stories section. The hero section includes an image and text that highlights the main message of the website. The pitch section provides more detailed information about the benefits of living and working in Marlborough and includes links to relevant resources. The feature stories section includes three sections that highlight different aspects of life in Marlborough, including business, lifestyle, and people.
 
