@@ -44,9 +44,25 @@
                 <img src="/img/story2.jpg" alt="lifestyle image">
             </div>            
             <h2>Marlborough Lifestyle</h2>
-            <p>Sun, sea, mountains, tramping, fishing, festivals, events. All the thing that make Marlborough a fun place to live and play.</p>
-            <button type="button" onmouseover="this.style.backgroundColor='#fcb900'" onmouseout="this.style.backgroundColor='#ffff'">Read more</button>
-        </div>
+                <label for="originCity">Select Origin City:</label>
+                <select id="originCity">
+                  <option>Auckland</option>
+                  <option>Wellington</option>
+                  <option>Christchurch</option>
+                  <option>Hamilton</option>
+                  <option>Dunedin</option>
+                  <option>Other</option>
+                </select>
+        
+              <div>
+                <label for="currentCost">Current Cost of Living:</label>
+                <input id="currentCost" type="number" />
+              </div>
+              <button type="button" id="calculate"  style="margin: 20px"  onmouseover="this.style.backgroundColor='#fcb900'" onmouseout="this.style.backgroundColor='#ffff'">Calculate</button>
+              <div id="result"></div>
+              <script src="./js/costOfLiving.js"></script>
+              </div>
+            
         <div class="people">
             <div class="feature">
                 <img src="/img/story3.jpg" alt="people image">
@@ -69,6 +85,7 @@
           </ul>
         <p style="margin-left: 10%; !important">To enter, apply to one of the jobs listed in the WE LOVE IT HERE brochure. If shortlisted, you will be entered in the draw to win the above prizes. Remember to mention that you found the position advertised through WE LOVE IT HERE. Entries close on February 28th, 2023. The winner will be drawn on March 3rd, 2023 and will be contacted via the details given in their job application. Terms and conditions apply.</p>
         </div>
+    <div> 
 </body>
 <footer> 
     
