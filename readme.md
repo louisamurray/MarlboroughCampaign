@@ -24,7 +24,11 @@ In terms of CSS, the following styles have been applied:
 - Width and height have been applied to specific elements such as `hero-image`, `feature-images`.
 - The website is also designed to be responsive, with styles that adjust for different screen sizes.
 
-The website also includes an email contact form, hidden by default, which can be activated by JavaScript. This allows visitors to the website to easily get in touch with the team behind the website.
+This project uses JavaScript to add dynamic functionality to the website. The following JavaScript files have been used in this project:
+- `popUp.js`: This file is responsible for the functionality of the popup functions on the website. It gets the elements of the open and close buttons and the popup itself, and adds click event listeners to the buttons to show and hide the popup.
+- `people.js`: This file sets the initial opacity of the body element to 1 when the page loads.
+- `costOfLiving.js`: This file calculates the cost of living in Marlborough in comparison to the selected city and displays the result. It gets the elements of the origin city, current cost, calculate button, and the result, and adds a click event listener to the calculate button. When the button is clicked, the cost of living is calculated and displayed in the result.
+- `script.js`: This file contains the functionality for the contact form. It has functions for opening, closing, and submitting the form.
 
 ## Viewing
 To view the website, open the "index.html" file in a web browser.
