@@ -50,8 +50,6 @@ input[type="number"] {
   font-size: 1rem;
 }
 
-
-
 h1 {
   font-size: 4rem;
   text-align: center !important;
@@ -74,6 +72,19 @@ p {
   max-width: 90%;
   text-align: center !important;
   margin: 16px 0 0 0;
+}
+
+.thumbnail {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(250%);
+  position: center;
 }
 
 .hero-image img {
